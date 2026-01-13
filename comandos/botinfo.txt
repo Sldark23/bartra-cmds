@@ -1,0 +1,12 @@
+$nomention
+$reply
+$title[🤖 • Minhas Informações]
+$description[
+**✒️ • Meu nome :** ($username[1460492567929159749]) ($botID)
+**⌨️ • Meu prefixo :** ba!
+**🖥️ • total de servidores :** Estou em `$serverCount` servidores
+**🖲️ • Uptime :** `$uptime`
+**📟 • Tempo de Hosting :** $hostingExpireTime
+**👑 • Meu Desenvolvedor :** $displayName[$authorID]
+]
+$footer[Solicitado por $displayName[$authorID]]

@@ -1,0 +1,23 @@
+$nomention
+$reply
+$allowUserMentions[]
+
+$c[ detectar comandos ↓ ]
+$eval[%{DOL}%var[cmd\;%{DOL}%replaceText[%{DOL}%replaceText[%{DOL}%replaceText[%{DOL}%replaceText[%{DOL}%botCommands[
+\]\;<@!\;\;-1\]\;<@\;\;-1\]\;%{DOL}%botID\;\;-1\]\;>\;\;-1\]\]
+%{DOL}%textSplit[%{DOL}%var[cmd\]\;
+\]]
+
+$color[F55153]
+$title[ **Lista de comandos** ]
+$thumbnail[$authorAvatar]
+$description[ 
+>>> ## $splitText[1]
+$splitText[2]
+$splitText[3]
+$splitText[4]
+$splitText[5] ]
+$footer[ $getTextSplitLength comandos disponíveis ]
+$addButton[no;☠️;Retornar;secondary;yes]
+$if[$getTextSplitLength>5] $var[z;no] $else $var[z;yes] $endif
+$addButton[no;+/1/$authorID;Próximo;success;$var[z]]

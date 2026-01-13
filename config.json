@@ -1,14 +1,14 @@
 {
   "comandos": [
     {
-      "nome": "ping",
-      "aliases": ["p", "latencia"],
-      "arquivo": "ping.txt"
+      "nome": "botinfo",
+      "aliases": ["b", "infobot"],
+      "arquivo": "botinfo.txt"
     },
     {
       "nome": "ajuda",
       "aliases": ["help", "comandos"],
-      "arquivo": "ajuda.txt"
+      "arquivo": "help.txt"
     }
   ]
 }
