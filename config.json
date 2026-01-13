@@ -1,0 +1,14 @@
+{
+  "comandos": [
+    {
+      "nome": "ping",
+      "aliases": ["p", "latencia"],
+      "arquivo": "ping.txt"
+    },
+    {
+      "nome": "ajuda",
+      "aliases": ["help", "comandos"],
+      "arquivo": "ajuda.txt"
+    }
+  ]
+}
